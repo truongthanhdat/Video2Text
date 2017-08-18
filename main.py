@@ -70,4 +70,3 @@ for i in xrange(video.shape[0]):
     cv2.putText(video[i], result['vid%d' % vid], (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2, cv2.LINE_AA)
     index = index + 1
 
-skv.vwrite(args.output, video)
