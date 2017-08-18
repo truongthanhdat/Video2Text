@@ -10,6 +10,8 @@
 
 + mv VGG_ILSVRC_16_layers.caffemodel vgg16.caffemodel
 
++ If use pretrained model VGG16 tensorflow, you must download from [here](https://www.cs.toronto.edu/~frossard/post/vgg16/) 
+
 ## Download pretraind S2VT
 
 + cd s2vt
@@ -29,6 +31,8 @@
 ## [S2VT](https://gist.github.com/vsubhashini/38d087e140854fee4b14)
 
 ## [Feature Extraction](https://github.com/colingogo/caffe-pretrained-feature-extraction)
+
+## [VGG-16 Tensorflow](https://www.cs.toronto.edu/~frossard/post/vgg16/)
 
 # Author:
 
