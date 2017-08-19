@@ -46,7 +46,7 @@ python main.py --input input-video --output output-video --shot frames-per-shot 
 
 ## Author:
 
-###Thanh-Dat Truong
+### Thanh-Dat Truong
 
 + University of Science, Vietnam National University, Ho Chi Minh City
 
