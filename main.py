@@ -2,19 +2,31 @@ import argparse
 import skvideo.io as skv
 import skimage.io
 import numpy as np
+import caffe
 import featureExtraction.feature_extract as fe
 from s2vt.s2vt_captioner import generateCaption
-import cv2
+import os
+import time
+import progressbar
 
-#Analysis Arguments
+##---------Analysis-Arguments------------------##
 parser = argparse.ArgumentParser()
-parser.add_argument('--input', type=str, help='Video input file', required=True)
+parser.add_argument('--input', type=str, help='Video input file', default='vbs.mp4')
 parser.add_argument('--output', type=str, help='Video output file', default='output.mp4')
-parser.add_argument('--shot', type=int, help='Frames per shot',default=30)
+parser.add_argument('--shot', type=int, help='Frames per shot', default=30)
+parser.add_argument('--step', type=int, help='Step size', default=30)
 args = parser.parse_args()
-SHOT = args.shot
+##---------------------------------------------##
 
-#Load Model VGG16
+
+##-------Constant-Initialization---------------##
+SHOT = args.shot
+STEP = args.step
+##---------------------------------------------##
+
+
+##--------Loading-Data-------------------------##
+#Loading Model VGG16
 vgg16 = fe.CaffeFeatureExtractor(
             model_path="featureExtraction/vgg16_deploy.prototxt",
             pretrained_path="featureExtraction/vgg16.caffemodel",
@@ -23,6 +35,12 @@ vgg16 = fe.CaffeFeatureExtractor(
             mean_values=[103.939, 116.779, 123.68]
             )
 
+#Loading Video
+video = skv.vread(args.input)
+##---------------------------------------------##
+
+
+##---------Declare-Function--------------------##
 #Converting Image
 def load_image(image, color=True):
     img = skimage.img_as_float(image).astype(np.float32)
@@ -36,44 +54,56 @@ def load_image(image, color=True):
 
 #Extracting Image
 def fc7(image):
-    image = load_image(image)
+    skimage.io.imsave('tmp.jpg', image)
+    image = caffe.io.load_image('tmp.jpg')
+    os.remove('tmp.jpg')
     return vgg16.extract_feature(image)
 
-#Loading Video (B, G, R)
-video = skv.vread(args.input)
+def featureExtraction(video):
+    features = []
+    bar = progressbar.ProgressBar()
+    index = bar(xrange(video.shape[0]))
+    for i  in index:
+        features.append(fc7(video[i]))
+    features = np.array(features)
+    return features
+
+##---------------------------------------------##
+
+
+##---------Feature-Extraction------------------##
+startTime = time.time()
+features = featureExtraction(video)
+endTime = time.time()
+with open('time.txt', 'w') as output:
+    output.write('Feature extraction takes %0.10f seconds\n'% (endTime - startTime))
+
 
 #Writing Features
 with open('input.txt', 'w') as output:
+    first = 0
     index = 0
-    vid = 1
-    for i in xrange(video.shape[0]):
-        if (index == SHOT):
-            print 'Finish shot', vid
-            vid = vid + 1
-            index = 0
-
-        s = 'vid%d_frame_%d,' % (vid, index)
-        feature = fc7(video[i, :, :, :]).tolist()
-        s = s + ','.join([str('%0.9f' % x) for x in feature])
-        s = s + '\n'
-        output.write(s)
+    while (first < video.shape[0]):
+        last = np.min([video.shape[0], first + SHOT])
+        subFeatures = features[first:last]
+        s = '\n'.join([str('vid%d_frame_%d,' % (index, frame)) + ','.join([str('%0.9f' % x) for x in subFeatures[frame]]) for frame in xrange(last - first)])
+        output.write(s + '\n')
+        print 'Finish shot', index
         index = index + 1
+        first = first + STEP
 
+##---------------------------------------------##
+
+
+##--------Generating-Caption-------------------##
 #Generating Caption
+startTime = time.time()
 result = generateCaption(['input.txt'])
+endTime = time.time()
+with open('time.txt', 'a') as output:
+    output.write('Generating caption takes %0.10f seconds\n' % (endTime - startTime))
+
 with open('output.txt', 'w') as output:
     for i in result:
         output.write('{0}:\t{1}\n'.format(i, result[i]))
-
-#Save Video
-vid = 1
-index = 0
-for i in xrange(video.shape[0]):
-    if (index == SHOT):
-        vid = vid + 1
-        index = 0
-
-    cv2.putText(video[i], result['vid%d' % vid], (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2, cv2.LINE_AA)
-    index = index + 1
-
-skv.vwrite(args.output, video)
+##---------------------------------------------##
