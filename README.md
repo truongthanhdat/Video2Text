@@ -24,7 +24,7 @@
 
 ### Generating captions:
 
-```python
+```bash
 python main.py --input input-video --output output-video --shot frames-per-shot --step step-size
 ```
 
