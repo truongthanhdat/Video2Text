@@ -20,7 +20,7 @@ def featureExtraction(images):
     first = 0
     BATCH_SIZE = 10
     features = []
-    N = images.shape(0)
+    N = images.shape[0]
 
     config = tf.ConfigProto()
     config.gpu_options.allow_growth=True
@@ -30,11 +30,14 @@ def featureExtraction(images):
 
         while (first < N):
             last = np.min([N, first + BATCH_SIZE])
-            feats = vgg.fc7(convertImage(images[first:last]))
-            features.append(feats)
+            feats = vgg.fc7(sess, convertImage(images[first:last]))
+            print 'Finish subimages: [%d: %d)' % (first, last)
+            for i in xrange(last - first):
+                features.append(feats[i])
             first = last
 
-    return np.array(features)
+    features = np.array(features)
+    return features
 
 
 ##-------------------------------------------------##
@@ -63,6 +66,7 @@ video = skv.vread(args.input)
 startTime = time.time()
 features = featureExtraction(video)
 endTime = time.time()
+print features.shape
 with open('time.txt', 'w') as output:
     output.write('Feature extraction takes %0.10f seconds\n' % (endTime - startTime))
 
