@@ -3,10 +3,11 @@ import skvideo.io as skv
 import numpy as np
 from s2vt.s2vt_captioner import generateCaption
 import VGG16.vgg16 as vgg16
-import cv2
 import tensorflow as tf
 from scipy.misc import imresize
+import time
 
+##---------Declare-Function------------------------##
 def convertImage(images):
     imgs = []
     for img in images:
@@ -15,57 +16,80 @@ def convertImage(images):
     imgs = np.array(imgs)
     return imgs
 
-#Analysis arguments
-parser = argparse.ArgumentParser()
-parser.add_argument('--input', type=str, default='videoplayback.mp4')
-parser.add_argument('--output', type=str, default='output.mp4')
-parser.add_argument('--block', type=int, default=30)
-args = parser.parse_args()
-BLOCK = args.block
+def featureExtraction(images):
+    first = 0
+    BATCH_SIZE = 10
+    features = []
+    N = images.shape(0)
 
+    config = tf.ConfigProto()
+    config.gpu_options.allow_growth=True
+    with tf.Session(config=config) as sess:
+        input = tf.placeholder(tf.float32, [None, 224, 224, 3])
+        vgg = vgg16.vgg16(input, 'VGG16/vgg16_weights.npz', sess)
+
+        while (first < N):
+            last = np.min([N, first + BATCH_SIZE])
+            feats = vgg.fc7(convertImage(images[first:last]))
+            features.append(feats)
+            first = last
+
+    return np.array(features)
+
+
+##-------------------------------------------------##
+
+
+##----------Analysis-Arguments---------------------##
+parser = argparse.ArgumentParser()
+parser.add_argument('--input', type=str, help='Input video', default='vbs.mp4')
+parser.add_argument('--output', type=str, help='Output video', default='output.mp4')
+parser.add_argument('--shot', type=int, help='Frames per shot', default=30)
+parser.add_argument('--step', type=int, help='Step size per shot', default=30)
+args = parser.parse_args()
+##-------------------------------------------------##
+
+
+##---------Constant-Initilization------------------##
+SHOT = args.shot
+STEP = args.step
+##-------------------------------------------------##
+
+
+##--------Feature-Extration------------------------##
 #Reading video
 video = skv.vread(args.input)
 
-"""
-config = tf.ConfigProto()
-config.gpu_options.allow_growth=True
-with tf.Session(config=config) as sess:
-	#VGG-16 Initilization
-	sess = tf.Session()
-	input = tf.placeholder(tf.float32, [None, 224, 224, 3])
-	vgg = vgg16.vgg16(input, 'VGG16/vgg16_weights.npz', sess)
+startTime = time.time()
+features = featureExtraction(video)
+endTime = time.time()
+with open('time.txt', 'w') as output:
+    output.write('Feature extraction takes %0.10f seconds\n' % (endTime - startTime))
 
-	#Feature Extracction
-	with open('input.txt', 'w') as output:
-	    first = 0
-	    vid = 1
-	    while (first < video.shape[0]):
-		last = np.min([first + BLOCK, video.shape[0]])
-		images = convertImage(video[first:last])
-		features = vgg.fc7(sess, images)
+with open('input.txt', 'w') as output:
+        first = 0
+        index = 0
+        while (first < video.shape[0]):
+            last = np.min([video.shape[0], first + SHOT])
+            subFeatures = features[first:last]
+            s = '\n'.join([str('vid%d_frame_%d,' % (index, frame)) + ','.join([str('%0.9f' % x) for x in subFeatures[frame]]) for frame in xrange(last - first)])
+            output.write(s + '\n')
+            print 'Finish shot', index
+            index = index + 1
+            first = first + STEP
+##-------------------------------------------------##
 
-		index = first
-		s = '\n'.join([str('vid%d_frame_%d,' % (vid, frame)) + ','.join([str('%0.9f' % x) for x in features[frame]]) for frame in xrange(last - first)])
-		output.write(s + "\n")
 
-		print 'Finish shot', vid
-		vid = vid + 1
-		first = last
-"""
+##-------------------------------------------------##
 #Generating Caption
+startTime = time.time()
 result = generateCaption(['input.txt'])
+endTime = time.time()
+with open('time.txt', 'a') as output:
+    output.write('Generating caption takes %0.10f seconds\n' % (endTime - startTime))
+
 with open('output.txt', 'w') as output:
     for i in result:
         output.write('{0}:\t{1}\n'.format(i, result[i]))
+##-------------------------------------------------##
 
-#Writing Video
-vid = 1
-index = 1
-for i in xrange(video.shape[0]):
-    if (index == BLOCK + 1):
-        vid = vid + 1
-        index = 1
-
-    cv2.putText(video[i], result['vid%d' % vid], (10, 50), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 255), 2, cv2.LINE_AA)
-    index = index + 1
-skv.vwrite(args.output, video)
