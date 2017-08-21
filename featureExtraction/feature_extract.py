@@ -1,8 +1,5 @@
-# -*- coding: utf-8 -*-
-
 import numpy as np
 import caffe
-import hickle as hkl
 
 class CaffeFeatureExtractor:
     def __init__(self, model_path, pretrained_path, blob, crop_size, meanfile_path=None, mean_values=None):
@@ -15,7 +12,6 @@ class CaffeFeatureExtractor:
         self.mean_values = mean_values
         # create network
         self.net = caffe.Net(self.model_path, self.pretrained_path, caffe.TEST)
-        self.net.blobs["data"].reshape(1, 3, self.crop_size, self.crop_size)
         # mean
         if self.meanfile_path is not None:
             # load mean array
@@ -31,19 +27,18 @@ class CaffeFeatureExtractor:
             self.mean[2] = mean_values[2]
         else:
             raise Exception
-        # create preprocessor
-        # Note: caffe.io.load_image() => (H,W,C), RGB, [0.0, 1.0]
+
         self.transformer = caffe.io.Transformer({"data": self.net.blobs["data"].data.shape}) # for cropping
         self.transformer.set_transpose("data", (2,0,1)) # (H,W,C) => (C,H,W)
         self.transformer.set_mean("data", self.mean) # subtract by mean
-        self.transformer.set_raw_scale("data", 255) # [0.0, 1.0] => [0.0, 255.0].
-        self.transformer.set_channel_swap("data", (2,1,0)) # RGB => BGR
 
-    def extract_feature(self, img):
-        preprocessed_img = self.transformer.preprocess("data", img)
-        out = self.net.forward_all(**{self.net.inputs[0]: preprocessed_img, "blobs": [self.blob]})
+    def extract_feature(self, imgs):
+        preprocessed_imgs = np.zeros((len(imgs), 3, 224, 224), dtype=np.float32)
+        for i in xrange(len(imgs)):
+            preprocessed_imgs[i] = self.transformer.preprocess("data", imgs[i])
+
+        out = self.net.forward_all(**{self.net.inputs[0]: preprocessed_imgs, "blobs": [self.blob]})
         feat = out[self.blob]
-        feat = feat[0] 
         return feat
 
     def crop_matrix(self, matrix, crop_size):
@@ -56,25 +51,5 @@ class CaffeFeatureExtractor:
         assert matrix.shape[1] == matrix.shape[2]
         corner_size = matrix.shape[1] - crop_size
         corner_size = np.floor(corner_size / 2)
-        res = matrix[:, corner_size:crop_size+corner_size, corner_size:crop_size+corner_size] 
+        res = matrix[:, corner_size:crop_size+corner_size, corner_size:crop_size+corner_size]
         return res
-    
-def create_dataset(net, datalist, dbprefix):
-    with open(datalist) as fr:
-        lines = fr.readlines()
-    lines = [line.rstrip() for line in lines]
-    feats = []
-    labels = []
-    for line_i, line in enumerate(lines):
-        img_path, label = line.split()
-        img = caffe.io.load_image(img_path)
-        feat = net.extract_feature(img)
-        feats.append(feat)
-        label = int(label)
-        labels.append(label)
-        if (line_i + 1) % 100 == 0:
-            print "processed", line_i + 1
-    feats = np.asarray(feats)
-    labels = np.asarray(labels)
-    hkl.dump(feats, dbprefix + "_features.hkl", mode="w")
-    hkl.dump(labels, dbprefix + "_labels.hkl", mode="w")
