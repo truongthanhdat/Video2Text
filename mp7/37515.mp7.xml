@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37515">
+                <MediaLocator><MediaUri>SD_PHDdoublethisdoublethat_tea1_2005._-o-_.tea1_doublethisdoublethat_txt_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                    <MediaDuration>PT7M38S21N30F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37515_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                            <MediaDuration>PT2S16N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:2F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37515_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:02:16F30</MediaTimePoint>
+                            <MediaDuration>PT2M2S8N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:57:19F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37515_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:04:24F30</MediaTimePoint>
+                            <MediaDuration>PT4M14S27N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:56:19F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37515_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:19:21F30</MediaTimePoint>
+                            <MediaDuration>PT1M8S3N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:51:0F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37515_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:27:24F30</MediaTimePoint>
+                            <MediaDuration>PT1S4N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:28:10F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37515_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:28:28F30</MediaTimePoint>
+                            <MediaDuration>PT9S23N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37515_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:33:26F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

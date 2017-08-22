@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38364">
+                <MediaLocator><MediaUri>C64Videoarchive192-CavernsOfEriban._-o-_.C64Videoarchive192-CavernsOfEriban_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F4999</MediaTimePoint>
+                    <MediaDuration>PT8M16S1696N4999F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38364_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F4999</MediaTimePoint>
+                            <MediaDuration>PT3200N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:1000F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38364_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:3200F4999</MediaTimePoint>
+                            <MediaDuration>PT7S2507N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:04:2204F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38364_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:08:708F4999</MediaTimePoint>
+                            <MediaDuration>PT7S1107N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:11:3911F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38364_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:15:1815F4999</MediaTimePoint>
+                            <MediaDuration>PT7M59S679N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:11:4551F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38364_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:14:2494F4999</MediaTimePoint>
+                            <MediaDuration>PT1200N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:14:2994F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38364_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:14:3694F4999</MediaTimePoint>
+                            <MediaDuration>PT1S3001N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38364_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:15:2695F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

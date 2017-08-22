@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35719">
+                <MediaLocator><MediaUri>C64Gamevideoarchive126-TheWarriorsOfZypar._-o-_.C64Videoarchive126-WarriorsOfZypar_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F4999</MediaTimePoint>
+                    <MediaDuration>PT6M37S2297N4999F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35719_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F4999</MediaTimePoint>
+                            <MediaDuration>PT2800N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:1000F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:2800F4999</MediaTimePoint>
+                            <MediaDuration>PT7S3607N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:04:2404F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:08:1408F4999</MediaTimePoint>
+                            <MediaDuration>PT12S3912N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:21:121F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:21:321F4999</MediaTimePoint>
+                            <MediaDuration>PT1M57S1917N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:22:2182F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:18:2238F4999</MediaTimePoint>
+                            <MediaDuration>PT44S3544N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:39:4659F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:03:783F4999</MediaTimePoint>
+                            <MediaDuration>PT1M49S709N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:57:2537F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35719_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:52:1492F4999</MediaTimePoint>
+                            <MediaDuration>PT1M45S805N4999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35719_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:46:546F4999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37501">
+                <MediaLocator><MediaUri>Sonicsuns-SubscriptionProfileLittlekuriboh119._-o-_.Sonicsuns-SubscriptionProfileLittlekuriboh119_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2371</MediaTimePoint>
+                    <MediaDuration>PT7M37S1653N2371F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37501_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2371</MediaTimePoint>
+                            <MediaDuration>PT3M36S864N2371F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37501_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:54:1056F2371</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37501_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:36:864F2371</MediaTimePoint>
+                            <MediaDuration>PT2M18S602N2371F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37501_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:44:1136F2371</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37501_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:54:1466F2371</MediaTimePoint>
+                            <MediaDuration>PT1M43S187N2371F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37501_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:47:1403F2371</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

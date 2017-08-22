@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37042">
+                <MediaLocator><MediaUri>Jewelrytelevision-MotherOfPearlNecklaceBraceletAndEarrings157._-o-_.Jewelrytelevision-MotherOfPearlNecklaceBraceletAndEarrings157_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F5833</MediaTimePoint>
+                    <MediaDuration>PT7M21S3947N5833F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37042_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F5833</MediaTimePoint>
+                            <MediaDuration>PT13S5671N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:07:2469F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37042_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:13:5671F5833</MediaTimePoint>
+                            <MediaDuration>PT1M41S2567N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:07:589F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37042_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:55:2405F5833</MediaTimePoint>
+                            <MediaDuration>PT40S3080N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:15:2545F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37042_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:35:5485F5833</MediaTimePoint>
+                            <MediaDuration>PT1M34S98N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:23:5301F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37042_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:09:5583F5833</MediaTimePoint>
+                            <MediaDuration>PT2M26S1182N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:38:1746F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37042_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:36:932F5833</MediaTimePoint>
+                            <MediaDuration>PT45S3015N5833F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37042_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:52:3804F5833</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

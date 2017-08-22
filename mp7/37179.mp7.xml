@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37179">
+                <MediaLocator><MediaUri>moped_monday_07_23_07._-o-_.mopedMONDAYbig_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT7M26S2438N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37179_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT3S1409N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37179_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:2103F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37179_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:03:1409F2997</MediaTimePoint>
+                            <MediaDuration>PT16S2648N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37179_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:06:1818F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37179_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:20:1060F2997</MediaTimePoint>
+                            <MediaDuration>PT3M22S306N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37179_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:30:2470F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37179_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:42:1366F2997</MediaTimePoint>
+                            <MediaDuration>PT3M44S1072N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37179_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:05:795F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_36011">
+                <MediaLocator><MediaUri>Jigsawfanclub-JigsawEp315NaNoWriMo269._-o-_.Jigsawfanclub-JigsawEp315NaNoWriMo269_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT6M46S1818N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot36011_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT2S6N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36011_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:2900F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36011_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:02:6F2997</MediaTimePoint>
+                            <MediaDuration>PT6M32S1076N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36011_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:03:49F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36011_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:34:1082F2997</MediaTimePoint>
+                            <MediaDuration>PT7S521N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36011_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:37:1291F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36011_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:41:1603F2997</MediaTimePoint>
+                            <MediaDuration>PT5S215N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36011_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:44:112F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

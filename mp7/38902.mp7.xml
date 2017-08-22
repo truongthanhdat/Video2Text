@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38902">
+                <MediaLocator><MediaUri>CornSnake_0._-o-_.Corn_Snake_WMV38_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F15</MediaTimePoint>
+                    <MediaDuration>PT8M42S7N15F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38902_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F15</MediaTimePoint>
+                            <MediaDuration>PT39S6N15F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38902_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:17:6F15</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38902_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:39:6F15</MediaTimePoint>
+                            <MediaDuration>PT4M36S1N15F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38902_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:44:9F15</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38902_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:15:7F15</MediaTimePoint>
+                            <MediaDuration>PT3M27S0N15F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38902_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:45:2F15</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

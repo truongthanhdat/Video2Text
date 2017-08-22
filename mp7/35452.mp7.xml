@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35452">
+                <MediaLocator><MediaUri>InterviewwithJamieVasquez._-o-_.JamieVasquez_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F999</MediaTimePoint>
+                    <MediaDuration>PT6M27S787N999F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35452_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F999</MediaTimePoint>
+                            <MediaDuration>PT36S336N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:19:519F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35452_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:36:336F999</MediaTimePoint>
+                            <MediaDuration>PT1M33S993N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:19:579F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35452_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:10:330F999</MediaTimePoint>
+                            <MediaDuration>PT1M11S671N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:49:669F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35452_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:22:2F999</MediaTimePoint>
+                            <MediaDuration>PT58S258N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:51:931F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35452_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:20:260F999</MediaTimePoint>
+                            <MediaDuration>PT39S239N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:40:580F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35452_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:59:499F999</MediaTimePoint>
+                            <MediaDuration>PT1M28S288N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35452_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:45:845F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37708">
+                <MediaLocator><MediaUri>Hans_Cousto_-_Interview_by_Luc_Sala_-_LSD_Symposium_Basel_2006._-o-_.Hans_Cousto_-_Interview_by_Luc_Sala_-_LSD_Symposium_Basel_2006_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                    <MediaDuration>PT7M46S6N25F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37708_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                            <MediaDuration>PT1S1N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:13F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37708_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:1F25</MediaTimePoint>
+                            <MediaDuration>PT7S20N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:04:9F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37708_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:08:21F25</MediaTimePoint>
+                            <MediaDuration>PT6S0N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:10:3F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37708_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:14:21F25</MediaTimePoint>
+                            <MediaDuration>PT4S8N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:18:11F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37708_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:19:4F25</MediaTimePoint>
+                            <MediaDuration>PT1S6N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:19:22F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37708_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:20:10F25</MediaTimePoint>
+                            <MediaDuration>PT7M25S21N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37708_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:10:16F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

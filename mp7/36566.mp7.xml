@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_36566">
+                <MediaLocator><MediaUri>talkwithzen._-o-_.MOV00030_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                    <MediaDuration>PT7M4S24N25F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot36566_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                            <MediaDuration>PT1M6S15N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36566_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:36:13F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36566_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:06:15F25</MediaTimePoint>
+                            <MediaDuration>PT1M20S13N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36566_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:51:10F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36566_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:27:3F25</MediaTimePoint>
+                            <MediaDuration>PT27S0N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36566_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:39:16F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36566_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:54:3F25</MediaTimePoint>
+                            <MediaDuration>PT3M28S20N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36566_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:18:7F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36566_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:22:23F25</MediaTimePoint>
+                            <MediaDuration>PT42S1N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36566_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:41:14F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

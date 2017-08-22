@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37456">
+                <MediaLocator><MediaUri>Littlephotoshop-Episode66ColourCasting681._-o-_.Littlephotoshop-Episode66ColourCasting681_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F15</MediaTimePoint>
+                    <MediaDuration>PT7M36S1N15F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37456_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F15</MediaTimePoint>
+                            <MediaDuration>PT7M36S1N15F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37456_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:47:13F15</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_36640">
+                <MediaLocator><MediaUri>hadayeq_elqoba_lawyer_conference1._-o-_.1_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F747</MediaTimePoint>
+                    <MediaDuration>PT7M7S181N747F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot36640_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F747</MediaTimePoint>
+                            <MediaDuration>PT550N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:250F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36640_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:550F747</MediaTimePoint>
+                            <MediaDuration>PT5M5S515N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:19:167F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36640_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:06:318F747</MediaTimePoint>
+                            <MediaDuration>PT1M13S619N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:45:435F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36640_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:20:190F747</MediaTimePoint>
+                            <MediaDuration>PT24S172N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:30:470F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36640_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:44:362F747</MediaTimePoint>
+                            <MediaDuration>PT14S742N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:53:689F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot36640_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:59:357F747</MediaTimePoint>
+                            <MediaDuration>PT7S571N747F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot36640_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:03:269F747</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

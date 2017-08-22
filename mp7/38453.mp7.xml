@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38453">
+                <MediaLocator><MediaUri>411Show-TexasCommunityMediaSummitDrSharonStoverPart2377-2._-o-_.411Show-TexasCommunityMediaSummitDrSharonStoverPart2377_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT8M20S0N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38453_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT4S1212N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38453_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:02:806F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38453_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:04:1212F2997</MediaTimePoint>
+                            <MediaDuration>PT1200N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38453_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:04:1712F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38453_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:04:2412F2997</MediaTimePoint>
+                            <MediaDuration>PT5S2115N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38453_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:08:624F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38453_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:10:1530F2997</MediaTimePoint>
+                            <MediaDuration>PT7M59S1437N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38453_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:52:2396F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38453_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:09:2967F2997</MediaTimePoint>
+                            <MediaDuration>PT10S30N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38453_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:14:2682F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

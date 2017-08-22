@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37316">
+                <MediaLocator><MediaUri>C64Gamevideoarchive05-LunarLeeper._-o-_.C64Videoarchive005-LunarLeeper_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT7M31S1753N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37316_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT8S624N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:04:212F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37316_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:08:624F2997</MediaTimePoint>
+                            <MediaDuration>PT8S2924N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:12:2036F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37316_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:17:551F2997</MediaTimePoint>
+                            <MediaDuration>PT4M37S2831N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:14:502F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37316_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:55:385F2997</MediaTimePoint>
+                            <MediaDuration>PT1500N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:55:385F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37316_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:55:1885F2997</MediaTimePoint>
+                            <MediaDuration>PT2M28S744N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:08:704F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37316_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:23:2629F2997</MediaTimePoint>
+                            <MediaDuration>PT7S2121N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37316_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:27:2141F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35706">
+                <MediaLocator><MediaUri>Hitch_Hiker._-o-_.VTS_03_4_512Kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT6M36S2488N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35706_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT1S1903N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:1900F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:1903F2997</MediaTimePoint>
+                            <MediaDuration>PT1700N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:2703F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:02:606F2997</MediaTimePoint>
+                            <MediaDuration>PT2000N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:02:1506F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:02:2606F2997</MediaTimePoint>
+                            <MediaDuration>PT19S657N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:13:439F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:22:266F2997</MediaTimePoint>
+                            <MediaDuration>PT13S1039N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:27:1681F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:35:1305F2997</MediaTimePoint>
+                            <MediaDuration>PT5M55S2965N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:31:73F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35706_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:31:1273F2997</MediaTimePoint>
+                            <MediaDuration>PT5S1215N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35706_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:32:1676F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

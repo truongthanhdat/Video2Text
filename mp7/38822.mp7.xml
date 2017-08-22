@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38822">
+                <MediaLocator><MediaUri>Plambe-KMSingapore2007MarkHamiltonOnWikiImplementation394._-o-_.Plambe-KMSingapore2007MarkHamiltonOnWikiImplementation394_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F1199</MediaTimePoint>
+                    <MediaDuration>PT8M37S817N1199F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38822_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F1199</MediaTimePoint>
+                            <MediaDuration>PT19S1119N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38822_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:10:110F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38822_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:19:1119F1199</MediaTimePoint>
+                            <MediaDuration>PT4M12S252N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38822_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:24:544F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38822_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:32:172F1199</MediaTimePoint>
+                            <MediaDuration>PT7S507N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38822_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:35:975F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38822_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:39:679F1199</MediaTimePoint>
+                            <MediaDuration>PT3M34S914N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38822_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:34:194F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38822_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:14:394F1199</MediaTimePoint>
+                            <MediaDuration>PT23S423N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38822_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:27:107F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

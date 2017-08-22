@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39598">
+                <MediaLocator><MediaUri>Political_videos-GeorgeWBush20011208_3_474._-o-_.Political_videos-GeorgeWBush20011208_3_474_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F29</MediaTimePoint>
+                    <MediaDuration>PT9M13S18N29F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39598_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F29</MediaTimePoint>
+                            <MediaDuration>PT5M12S6N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39598_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:34:12F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39598_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:12:6F29</MediaTimePoint>
+                            <MediaDuration>PT4M1S12N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39598_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:09:9F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

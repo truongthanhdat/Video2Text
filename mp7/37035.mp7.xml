@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37035">
+                <MediaLocator><MediaUri>411Show-MartinLutherKingMarchers2009123._-o-_.411Show-MartinLutherKingMarchers2009123_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT7M21S723N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37035_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT5S815N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37035_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:02:1406F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37035_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:05:815F2997</MediaTimePoint>
+                            <MediaDuration>PT5M19S1157N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37035_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:11:1273F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37035_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:24:1972F2997</MediaTimePoint>
+                            <MediaDuration>PT1M50S230N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37035_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:40:2900F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37035_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:14:2202F2997</MediaTimePoint>
+                            <MediaDuration>PT6S1518N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37035_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:18:314F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

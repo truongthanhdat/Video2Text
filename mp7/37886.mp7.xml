@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37886">
+                <MediaLocator><MediaUri>Political_videos-GeorgeWBush20060622_1_592._-o-_.Political_videos-GeorgeWBush20060622_1_592_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F29</MediaTimePoint>
+                    <MediaDuration>PT7M54S5N29F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37886_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F29</MediaTimePoint>
+                            <MediaDuration>PT33S15N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:17:24F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:33:15F29</MediaTimePoint>
+                            <MediaDuration>PT13S26N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:40:18F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:47:12F29</MediaTimePoint>
+                            <MediaDuration>PT3N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:47:13F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:47:15F29</MediaTimePoint>
+                            <MediaDuration>PT10N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:47:18F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:47:25F29</MediaTimePoint>
+                            <MediaDuration>PT8S20N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:51:22F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:56:16F29</MediaTimePoint>
+                            <MediaDuration>PT3M46S0N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:10:20F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37886_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:42:16F29</MediaTimePoint>
+                            <MediaDuration>PT3M11S18N29F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37886_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:39:25F29</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

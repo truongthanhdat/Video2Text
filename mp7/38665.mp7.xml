@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38665">
+                <MediaLocator><MediaUri>Swajanascreencast-RequestFlowInJoomlaSkillsCampPune2007330._-o-_.Swajanascreencast-RequestFlowInJoomlaSkillsCampPune2007330_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                    <MediaDuration>PT8M30S8N25F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38665_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F25</MediaTimePoint>
+                            <MediaDuration>PT1S11N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:17F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:11F25</MediaTimePoint>
+                            <MediaDuration>PT2S6N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:02:13F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:03:17F25</MediaTimePoint>
+                            <MediaDuration>PT6S9N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:06:9F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:10:1F25</MediaTimePoint>
+                            <MediaDuration>PT8M19S7N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:12:10F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:29:8F25</MediaTimePoint>
+                            <MediaDuration>PT7N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:29:11F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:29:15F25</MediaTimePoint>
+                            <MediaDuration>PT12N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:29:21F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38665_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:30:2F25</MediaTimePoint>
+                            <MediaDuration>PT6N25F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38665_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:30:5F25</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

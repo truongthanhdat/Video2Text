@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35853">
+                <MediaLocator><MediaUri>Rippletv-RedYellowBlackWhite875._-o-_.Rippletv-RedYellowBlackWhite875_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT6M41S203N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35853_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT1S2303N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:103F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:2303F2997</MediaTimePoint>
+                            <MediaDuration>PT1300N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:2903F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:02:606F2997</MediaTimePoint>
+                            <MediaDuration>PT2S806N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:03:1009F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:04:1412F2997</MediaTimePoint>
+                            <MediaDuration>PT1S2303N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:05:1515F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:06:718F2997</MediaTimePoint>
+                            <MediaDuration>PT1300N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:06:1318F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:06:2018F2997</MediaTimePoint>
+                            <MediaDuration>PT2S806N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:07:2521F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:08:2824F2997</MediaTimePoint>
+                            <MediaDuration>PT7S2321N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:13:1539F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35853_8">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:16:2148F2997</MediaTimePoint>
+                            <MediaDuration>PT6M24S1052N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35853_8_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:45:1275F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

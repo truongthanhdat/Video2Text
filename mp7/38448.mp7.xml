@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38448">
+                <MediaLocator><MediaUri>Evangelismobiblico-WilPredicaAlAireLibre703._-o-_.Evangelismobiblico-WilPredicaAlAireLibre703_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                    <MediaDuration>PT8M19S199N749F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38448_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                            <MediaDuration>PT350N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:350F749</MediaTimePoint>
+                            <MediaDuration>PT4M3S493N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:51:411F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:04:94F749</MediaTimePoint>
+                            <MediaDuration>PT29S479N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:18:58F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:33:573F749</MediaTimePoint>
+                            <MediaDuration>PT150N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:33:623F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:33:723F749</MediaTimePoint>
+                            <MediaDuration>PT34S334N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:57:597F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:08:308F749</MediaTimePoint>
+                            <MediaDuration>PT2M59S629N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:42:452F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38448_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:08:188F749</MediaTimePoint>
+                            <MediaDuration>PT11S11N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38448_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:13:343F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

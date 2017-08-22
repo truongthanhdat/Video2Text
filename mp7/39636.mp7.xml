@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39636">
+                <MediaLocator><MediaUri>UAW_Autoworker_Press_Conference_on_Future_of_Manufacturing_HealthCare_GreenJobs_Part4_QA2._-o-_.PressConQA2_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT9M16S168N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39636_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT7S421N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39636_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:03:109F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39636_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:07:421F2997</MediaTimePoint>
+                            <MediaDuration>PT4M34S2022N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39636_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:01:1843F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39636_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:41:2443F2997</MediaTimePoint>
+                            <MediaDuration>PT2M47S701N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39636_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:03:789F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39636_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:29:147F2997</MediaTimePoint>
+                            <MediaDuration>PT1M47S21N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39636_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:21:1503F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

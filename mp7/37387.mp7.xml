@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37387">
+                <MediaLocator><MediaUri>411Show-WhatIsTwitter962._-o-_.411Show-WhatIsTwitter962_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F999</MediaTimePoint>
+                    <MediaDuration>PT7M34S354N999F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37387_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F999</MediaTimePoint>
+                            <MediaDuration>PT4S944N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37387_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:02:442F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37387_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:04:944F999</MediaTimePoint>
+                            <MediaDuration>PT8S568N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37387_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:10:850F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37387_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:13:513F999</MediaTimePoint>
+                            <MediaDuration>PT1M560N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37387_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:44:644F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37387_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:14:74F999</MediaTimePoint>
+                            <MediaDuration>PT6M20S280N999F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37387_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:31:891F999</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

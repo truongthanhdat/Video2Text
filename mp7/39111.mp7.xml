@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39111">
+                <MediaLocator><MediaUri>TennesseJed._-o-_.tennesse_jed_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F30000</MediaTimePoint>
+                    <MediaDuration>PT8M52S4949N30000F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39111_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F30000</MediaTimePoint>
+                            <MediaDuration>PT58S13752N30000F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39111_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:24:16736F30000</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39111_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:58:13752F30000</MediaTimePoint>
+                            <MediaDuration>PT3M16S875N30000F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39111_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:32:5561F30000</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39111_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:14:14627F30000</MediaTimePoint>
+                            <MediaDuration>PT1M1S26855N30000F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39111_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:51:18740F30000</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39111_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:16:11482F30000</MediaTimePoint>
+                            <MediaDuration>PT55S4653N30000F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39111_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:43:29309F30000</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39111_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:11:16135F30000</MediaTimePoint>
+                            <MediaDuration>PT2M40S18814N30000F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39111_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:39:5762F30000</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

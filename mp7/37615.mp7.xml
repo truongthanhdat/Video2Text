@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37615">
+                <MediaLocator><MediaUri>Sonicsuns-Welfare582._-o-_.Sonicsuns-Welfare582_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F95</MediaTimePoint>
+                    <MediaDuration>PT7M42S52N95F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37615_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F95</MediaTimePoint>
+                            <MediaDuration>PT1M59S27N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37615_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:55:89F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37615_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:59:27F95</MediaTimePoint>
+                            <MediaDuration>PT5S61N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37615_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:01:85F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37615_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:04:88F95</MediaTimePoint>
+                            <MediaDuration>PT37S3N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37615_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:23:25F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37615_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:41:91F95</MediaTimePoint>
+                            <MediaDuration>PT5M56N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37615_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:55:37F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

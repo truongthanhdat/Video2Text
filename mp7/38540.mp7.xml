@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38540">
+                <MediaLocator><MediaUri>ShimmyCast57._-o-_.ShimmyCastEpisode57-MakingATribalBelt_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT8M24S1612N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38540_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT2M13S1899N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:07:401F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:13:1899F2997</MediaTimePoint>
+                            <MediaDuration>PT31S193N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:25:1835F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:44:2092F2997</MediaTimePoint>
+                            <MediaDuration>PT1M18S1734N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:20:200F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:03:829F2997</MediaTimePoint>
+                            <MediaDuration>PT1M8S904N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:37:2131F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:11:1733F2997</MediaTimePoint>
+                            <MediaDuration>PT20S760N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:22:1966F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:31:2493F2997</MediaTimePoint>
+                            <MediaDuration>PT2M13S199N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:34:1782F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38540_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:44:2692F2997</MediaTimePoint>
+                            <MediaDuration>PT39S1917N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38540_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:05:255F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

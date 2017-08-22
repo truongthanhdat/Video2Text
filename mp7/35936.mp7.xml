@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35936">
+                <MediaLocator><MediaUri>Political_videos-GeorgeWBush20050420_6_861._-o-_.Political_videos-GeorgeWBush20050420_6_861_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                    <MediaDuration>PT6M43S4N30F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35936_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                            <MediaDuration>PT14S14N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:06:22F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35936_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:14:14F30</MediaTimePoint>
+                            <MediaDuration>PT1S16N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:15:7F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35936_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:16:0F30</MediaTimePoint>
+                            <MediaDuration>PT9S23N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:20:25F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35936_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:25:23F30</MediaTimePoint>
+                            <MediaDuration>PT1S17N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:26:8F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35936_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:27:10F30</MediaTimePoint>
+                            <MediaDuration>PT1S13N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:28:9F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35936_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:28:23F30</MediaTimePoint>
+                            <MediaDuration>PT6M14S11N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35936_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:08:26F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

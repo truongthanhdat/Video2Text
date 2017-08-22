@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35473">
+                <MediaLocator><MediaUri>oct2005_marc._-o-_.oct2005_marc_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT6M29S867N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35473_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT1S603N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:1700F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:603F2997</MediaTimePoint>
+                            <MediaDuration>PT9S1827N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:06:18F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:10:2430F2997</MediaTimePoint>
+                            <MediaDuration>PT32S2496N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:26:1578F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:43:1929F2997</MediaTimePoint>
+                            <MediaDuration>PT200N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:43:2029F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:43:2129F2997</MediaTimePoint>
+                            <MediaDuration>PT1000N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:43:2529F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:44:132F2997</MediaTimePoint>
+                            <MediaDuration>PT6S1518N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:47:1941F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:50:1650F2997</MediaTimePoint>
+                            <MediaDuration>PT21S1563N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:01:883F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_8">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:12:216F2997</MediaTimePoint>
+                            <MediaDuration>PT7S921N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_8_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:15:2125F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_9">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:19:1137F2997</MediaTimePoint>
+                            <MediaDuration>PT24S1572N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_9_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:32:2176F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_10">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:43:2709F2997</MediaTimePoint>
+                            <MediaDuration>PT10S630N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_10_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:48:2924F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_11">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:54:342F2997</MediaTimePoint>
+                            <MediaDuration>PT1200N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_11_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:54:842F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_12">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:54:1542F2997</MediaTimePoint>
+                            <MediaDuration>PT8S2924N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_12_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:58:2954F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_13">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:03:1469F2997</MediaTimePoint>
+                            <MediaDuration>PT50S2250N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_13_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:29:1947F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_14">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:54:722F2997</MediaTimePoint>
+                            <MediaDuration>PT7S521N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_14_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:57:931F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_15">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:01:1243F2997</MediaTimePoint>
+                            <MediaDuration>PT11S133N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_15_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:06:2558F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_16">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:12:1376F2997</MediaTimePoint>
+                            <MediaDuration>PT7S2021N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_16_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:16:988F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_17">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:20:400F2997</MediaTimePoint>
+                            <MediaDuration>PT1M7S101N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_17_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:53:599F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_18">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:27:501F2997</MediaTimePoint>
+                            <MediaDuration>PT20S160N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_18_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:37:1531F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_19">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:47:661F2997</MediaTimePoint>
+                            <MediaDuration>PT14S2042N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_19_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:54:982F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_20">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:01:2703F2997</MediaTimePoint>
+                            <MediaDuration>PT10S230N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_20_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:06:2718F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_21">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:11:2933F2997</MediaTimePoint>
+                            <MediaDuration>PT16S2248N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_21_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:20:760F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_22">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:28:2184F2997</MediaTimePoint>
+                            <MediaDuration>PT300N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_22_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:28:2284F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_23">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:28:2484F2997</MediaTimePoint>
+                            <MediaDuration>PT900N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_23_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:28:2884F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_24">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:29:387F2997</MediaTimePoint>
+                            <MediaDuration>PT3S1809N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_24_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:30:2690F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_25">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:32:2196F2997</MediaTimePoint>
+                            <MediaDuration>PT1200N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_25_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:32:2696F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_26">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:33:399F2997</MediaTimePoint>
+                            <MediaDuration>PT1S603N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_26_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:33:2099F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_27">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:34:1002F2997</MediaTimePoint>
+                            <MediaDuration>PT1S1303N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_27_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:34:2702F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_28">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:35:2305F2997</MediaTimePoint>
+                            <MediaDuration>PT29S187N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_28_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:44:1132F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_29">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:04:2492F2997</MediaTimePoint>
+                            <MediaDuration>PT10S2230N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_29_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:09:1607F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_30">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:15:1725F2997</MediaTimePoint>
+                            <MediaDuration>PT5S1815N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_30_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:18:1034F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_31">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:21:543F2997</MediaTimePoint>
+                            <MediaDuration>PT1S1803N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_31_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:21:2843F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_32">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:22:2346F2997</MediaTimePoint>
+                            <MediaDuration>PT1S103N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_32_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:23:849F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_33">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:23:2449F2997</MediaTimePoint>
+                            <MediaDuration>PT3S909N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_33_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:25:755F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_34">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:27:361F2997</MediaTimePoint>
+                            <MediaDuration>PT1400N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_34_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:27:1661F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35473_35">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:27:1761F2997</MediaTimePoint>
+                            <MediaDuration>PT1S2103N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35473_35_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:28:1264F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

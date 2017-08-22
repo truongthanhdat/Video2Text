@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37330">
+                <MediaLocator><MediaUri>Cardatavideo-New2009FordF150NewFeaturesMarkFields546._-o-_.Cardatavideo-New2009FordF150NewFeaturesMarkFields546_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                    <MediaDuration>PT7M31S28N30F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37330_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                            <MediaDuration>PT6S20N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:03:7F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37330_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:06:20F30</MediaTimePoint>
+                            <MediaDuration>PT2M50S10N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:49:24F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37330_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:57:0F30</MediaTimePoint>
+                            <MediaDuration>PT3M19S15N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:21:20F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37330_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:16:15F30</MediaTimePoint>
+                            <MediaDuration>PT44S29N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:44:0F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37330_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:01:14F30</MediaTimePoint>
+                            <MediaDuration>PT20S7N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:14:9F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37330_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:21:21F30</MediaTimePoint>
+                            <MediaDuration>PT10S7N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37330_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:26:26F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

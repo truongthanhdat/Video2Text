@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_35918">
+                <MediaLocator><MediaUri>Chrisheuer-TimOReillyInterviewGraphingSocialPatterns778._-o-_.Chrisheuer-TimOReillyInterviewGraphingSocialPatterns778_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                    <MediaDuration>PT6M42S502N749F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot35918_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                            <MediaDuration>PT9S309N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:05:155F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35918_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:09:309F749</MediaTimePoint>
+                            <MediaDuration>PT2M24S344N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:19:79F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35918_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:33:653F749</MediaTimePoint>
+                            <MediaDuration>PT46S396N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:59:129F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35918_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:20:300F749</MediaTimePoint>
+                            <MediaDuration>PT40S640N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:42:222F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35918_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:01:191F749</MediaTimePoint>
+                            <MediaDuration>PT2M38S458N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:18:718F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot35918_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:39:649F749</MediaTimePoint>
+                            <MediaDuration>PT2S602N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot35918_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:41:451F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

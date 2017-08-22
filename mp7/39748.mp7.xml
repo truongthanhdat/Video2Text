@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39748">
+                <MediaLocator><MediaUri>411Show-SanAntonioElection2007District8CandidatesForumPart3613._-o-_.411Show-SanAntonioElection2007District8CandidatesForumPart3613_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                    <MediaDuration>PT9M20S210N749F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39748_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                            <MediaDuration>PT1M8S518N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39748_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:34:484F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39748_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:08:518F749</MediaTimePoint>
+                            <MediaDuration>PT1M59S719N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39748_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:09:479F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39748_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:08:488F749</MediaTimePoint>
+                            <MediaDuration>PT3M59S239N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39748_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:19:219F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39748_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:07:727F749</MediaTimePoint>
+                            <MediaDuration>PT1M34S294N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39748_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:46:16F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39748_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:42:272F749</MediaTimePoint>
+                            <MediaDuration>PT37S687N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39748_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:09:00:390F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37049">
+                <MediaLocator><MediaUri>BuzzCreek-PrimaryPoliticsWithDelphine3971._-o-_.BuzzCreek-PrimaryPoliticsWithDelphine3971_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F748</MediaTimePoint>
+                    <MediaDuration>PT7M21S557N748F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37049_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F748</MediaTimePoint>
+                            <MediaDuration>PT58S441N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:30:235F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37049_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:58:441F748</MediaTimePoint>
+                            <MediaDuration>PT4S583N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:01:97F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37049_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:03:276F748</MediaTimePoint>
+                            <MediaDuration>PT2M38S116N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:23:386F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37049_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:41:392F748</MediaTimePoint>
+                            <MediaDuration>PT8S191N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:45:500F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37049_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:03:49:583F748</MediaTimePoint>
+                            <MediaDuration>PT3M22S354N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:20:215F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37049_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:07:12:189F748</MediaTimePoint>
+                            <MediaDuration>PT9S368N748F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37049_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:16:722F748</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

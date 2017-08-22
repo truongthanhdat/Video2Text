@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_37718">
+                <MediaLocator><MediaUri>aramjamesPaloAltoTaserTaskForce._-o-_.aram-Tasers-Pt1_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F1199</MediaTimePoint>
+                    <MediaDuration>PT7M46S66N1199F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot37718_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F1199</MediaTimePoint>
+                            <MediaDuration>PT1S1N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37718_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:00:500F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37718_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:01:1F1199</MediaTimePoint>
+                            <MediaDuration>PT2S2N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37718_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:1101F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37718_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:03:3F1199</MediaTimePoint>
+                            <MediaDuration>PT12S212N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37718_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:08:408F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37718_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:15:215F1199</MediaTimePoint>
+                            <MediaDuration>PT1M50S510N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37718_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:03:563F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot37718_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:05:725F1199</MediaTimePoint>
+                            <MediaDuration>PT5M40S540N1199F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot37718_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:13:113F1199</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

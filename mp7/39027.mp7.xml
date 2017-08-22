@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39027">
+                <MediaLocator><MediaUri>www.manhag.netbacktozonoob._-o-_.www.manhag.net_back_to_zonoob_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F24</MediaTimePoint>
+                    <MediaDuration>PT8M48S15N24F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39027_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F24</MediaTimePoint>
+                            <MediaDuration>PT8M46S11N24F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39027_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:28:3F24</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39027_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:46:11F24</MediaTimePoint>
+                            <MediaDuration>PT11N24F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39027_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:46:17F24</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39027_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:46:22F24</MediaTimePoint>
+                            <MediaDuration>PT9N24F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39027_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:47:0F24</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39027_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:47:7F24</MediaTimePoint>
+                            <MediaDuration>PT2N24F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39027_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:47:7F24</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39027_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:47:9F24</MediaTimePoint>
+                            <MediaDuration>PT1S6N24F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39027_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:48:1F24</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

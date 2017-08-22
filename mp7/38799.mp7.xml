@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38799">
+                <MediaLocator><MediaUri>Nycmasseur-OnBeingQueerBashed427._-o-_.Nycmasseur-OnBeingQueerBashed427_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                    <MediaDuration>PT8M36S1948N2997F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38799_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F2997</MediaTimePoint>
+                            <MediaDuration>PT7S1221N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38799_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:03:2009F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38799_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:07:1221F2997</MediaTimePoint>
+                            <MediaDuration>PT2M15S1505N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38799_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:15:425F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38799_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:22:2726F2997</MediaTimePoint>
+                            <MediaDuration>PT5M52S2956N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38799_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:54:482F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38799_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:15:2685F2997</MediaTimePoint>
+                            <MediaDuration>PT20S2260N2997F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38799_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:26:718F2997</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

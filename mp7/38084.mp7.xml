@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38084">
+                <MediaLocator><MediaUri>Sonicsuns-Snitching738._-o-_.Sonicsuns-Snitching738_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F95</MediaTimePoint>
+                    <MediaDuration>PT8M2S26N95F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38084_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F95</MediaTimePoint>
+                            <MediaDuration>PT5M40S78N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38084_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:48:32F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38084_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:40:78F95</MediaTimePoint>
+                            <MediaDuration>PT1S45N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38084_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:41:47F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38084_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:42:28F95</MediaTimePoint>
+                            <MediaDuration>PT2M19S93N95F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38084_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:52:24F95</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

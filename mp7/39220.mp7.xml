@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_39220">
+                <MediaLocator><MediaUri>Worldbridges-PodaberacadabraGivesAVirtualTarotCardReadingToWomenOfW673._-o-_.Worldbridges-PodaberacadabraGivesAVirtualTarotCardReadingToWomenOfW673_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                    <MediaDuration>PT8M57S0N30F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot39220_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F30</MediaTimePoint>
+                            <MediaDuration>PT4S0N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:01:28F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:04:0F30</MediaTimePoint>
+                            <MediaDuration>PT31S19N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:18:14F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:35:19F30</MediaTimePoint>
+                            <MediaDuration>PT28S12N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:00:51:7F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:01:04:1F30</MediaTimePoint>
+                            <MediaDuration>PT3M1S16N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:02:36:25F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:05:17F30</MediaTimePoint>
+                            <MediaDuration>PT58S11N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:14:25F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:05:03:28F30</MediaTimePoint>
+                            <MediaDuration>PT3M38S21N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:06:49:1F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot39220_7">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:42:19F30</MediaTimePoint>
+                            <MediaDuration>PT14S11N30F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot39220_7_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:50:8F30</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>

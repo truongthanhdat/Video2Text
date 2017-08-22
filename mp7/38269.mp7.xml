@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Mpeg7 xmlns="urn:mpeg:mpeg7:schema:2001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mpeg7="urn:mpeg:mpeg7:schema:2001" xsi:schemaLocation="urn:mpeg:mpeg7:schema:2001 Mpeg7-2001.xsd">
+    <Description xsi:type="ContentEntityType">
+        <MultimediaContent xsi:type="VideoType">
+            <Video id="TRECVID2016_38269">
+                <MediaLocator><MediaUri>Evangelismobiblico-EvangelismoBblicoParaLaSalvacinDeFernando803._-o-_.Evangelismobiblico-EvangelismoBblicoParaLaSalvacinDeFernando803_512kb.mp4</MediaUri></MediaLocator>
+                <MediaTime>
+                    <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                    <MediaDuration>PT8M11S241N749F</MediaDuration>
+                </MediaTime>
+                <TemporalDecomposition gap="false" overlap="false">
+                    <VideoSegment id="shot38269_1">
+                        <MediaTime>
+                            <MediaTimePoint>T00:00:00:0F749</MediaTimePoint>
+                            <MediaDuration>PT2M20S540N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_1_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:01:07:717F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38269_2">
+                        <MediaTime>
+                            <MediaTimePoint>T00:02:20:540F749</MediaTimePoint>
+                            <MediaDuration>PT1M43S303N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_2_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:03:18:548F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38269_3">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:04:94F749</MediaTimePoint>
+                            <MediaDuration>PT43S543N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_3_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:04:26:416F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38269_4">
+                        <MediaTime>
+                            <MediaTimePoint>T00:04:47:637F749</MediaTimePoint>
+                            <MediaDuration>PT1M40S500N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_4_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:05:45:595F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38269_5">
+                        <MediaTime>
+                            <MediaTimePoint>T00:06:28:388F749</MediaTimePoint>
+                            <MediaDuration>PT1M36S546N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_5_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:07:13:583F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                    <VideoSegment id="shot38269_6">
+                        <MediaTime>
+                            <MediaTimePoint>T00:08:05:185F749</MediaTimePoint>
+                            <MediaDuration>PT6S56N749F</MediaDuration>
+                        </MediaTime>
+                        <TemporalDecomposition>
+                            <VideoSegment id="shot38269_6_RKF">
+                                <MediaTime>
+                                    <MediaTimePoint>T00:08:08:338F749</MediaTimePoint>
+                                </MediaTime>
+                            </VideoSegment>
+                        </TemporalDecomposition>
+                    </VideoSegment>
+                </TemporalDecomposition>
+            </Video>
+        </MultimediaContent>
+    </Description>
+</Mpeg7>
